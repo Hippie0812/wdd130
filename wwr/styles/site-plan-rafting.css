@@ -16,11 +16,11 @@ Fonts are separated by a & */
   --paragraph-font: Rubik, Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #000000;  /* headlines on a white background */ 
-  --headline-color-on-color: white; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #000000; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #3c4c6c  ;
+  --headline-color-on-white: #e2e06f ;  /* headlines on a white background */ 
+  --headline-color-on-color: #363f4e; /* headlines on a colored background */ 
+  --paragraph-color-on-white: #97a0c1; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: #3c4c6c; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #97a0c1;
   --nav-link-color: #53850d;
   --nav-background-color: #3c4c6c;
   --nav-hover-link-color: #6e7a42;
