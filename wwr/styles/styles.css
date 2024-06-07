@@ -9,6 +9,12 @@
 }
 #logo_link{
     padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
 }
 nav a{
     text-align: center;
@@ -29,11 +35,28 @@ h4{
     color: black;
     font-family: 'Oswald', Courier, monospace ;
 }
-.hero-image{
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px;
+}
+#hero-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+.hero-img{
     width: 100%;
+}
+#hero-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+    
 }
 #hero-msg h1,#hero-msg h4{
     text-align: center;
+    color: #97a0c1;
 }
 
 .button-box{
@@ -59,6 +82,8 @@ h2{
     margin: 0;
 }
 header{
+    display: grid;
+    grid-template-columns: 150px auto;
     background-color: aliceblue;
 }
 .book, .join{
@@ -75,19 +100,46 @@ header{
 .card-img{
     border: 10px solid #363f4e;
 }
+.card-img, .mountains {
+    width: 100%;
+}
+.home-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 10%);
+}
 .rivers-card, .camping-card, .rapids-card{
     margin: 200px 0;
+}
+.rivers-card {
+    grid-column: 2/4;
+    grid-row: 2/3;
+}
+.camping-card{
+    grid-column: 5/7;
+    grid-row: 2/3;
+}
+.rapids-card{
+    grid-column: 8/10;
+    grid-row: 2/3;
 }
 .icon{
     padding-top: 10px;
 }
 #background{
     background-color: #97a0c1;
+    grid-column: 1/11;
+    grid-row: 6/7;
+}
+.mountains{
+    grid-column: 2/7;
+    grid-row: 6/7;
 }
 .msg{
     background-color: aliceblue;
     line-height: 1.5em;
     padding: 35px;
+    grid-column: 6/10;
+    grid-row: 6/7;
 }
 .msg h2{
     color: black;
