@@ -31,7 +31,7 @@ nav{
 }
 
 .logo{
-    width: 100px;
+    width: 50px;
 }
 
 #logo_link{
@@ -211,4 +211,20 @@ main section img {
 
 .card-img, .mountains{
     width: 100%;
+}
+.safety-grid{
+    
+}
+.gear, .training, .awareness{
+    background-color: #AABD8C;
+    border-style: solid;
+    border-color: #6f7364;
+    border-width: 5px;
+    margin: 20px;
+    padding: 20px;
+}
+.gear-img, .training-img, .awareness-img{
+    border-style: solid;
+    border-color: #6f7364;
+    border-width:5px;
 }
