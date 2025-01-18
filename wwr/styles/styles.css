@@ -1,0 +1,110 @@
+:root {
+    /* change the values below to your colors from your palette */
+    --primary-color: #76B041   ;
+    --secondary-color: #639A88 ;
+    --accent1-color: #3A5683 ;
+    --accent2-color: #2708A0 ;
+  
+    /* change the values below to your chosen font(s) */
+    --heading-font: "oswald";
+    --paragraph-font: Roboto Flex, Roboto slab, sans-serif;
+  
+    /* these colors below should be chosen from among your palette colors above */
+    --headline-color-on-white: #3A5683;  /* headlines on a white background */ 
+    --headline-color-on-color: #EFFCEA; /* headlines on a colored background */ 
+    --paragraph-color-on-white: #3A5683; /* paragraph text on a white background */ 
+    --paragraph-color-on-color: #EFFCEA; /* paragraph text on a colored background */ 
+    --paragraph-background-color: #639A88  ;
+    --nav-link-color: #3A5683;
+    --nav-background-color: #639A88;
+    --nav-hover-link-color: #76B041;
+    --nav-hover-background-color: #3A5683;
+  }
+#content {
+    max-width: 1600px;
+    margin:0 auto;
+}
+nav a{
+    text-align: center;
+    color: var(--paragraph-color-on-color);
+    text-decoration: none;
+}
+#hero-msg h1{
+    text-align: center;
+}
+#hero-msg h4{
+    text-align: center;
+}
+.button-box{
+    text-align: center;
+}
+main section{
+    text-align: center;
+}
+#background{
+    height: 725px;
+    background-color: var(--paragraph-background-color);
+}
+body{
+    background-color: var(--accent1-color);
+}
+header{
+    background-color: var(--nav-background-color);
+}
+nav a:hover{
+    background-color: var(--nav-hover-background-color);
+    color: var(--nav-link-color)
+}
+.book{
+    background-color: var(--nav-background-color);
+    color: var(--nav-link-color);
+    text-decoration: none;
+}
+.join{
+    background-color: var(--nav-background-color);
+    color: var(--nav-link-color);
+    text-decoration: none;
+}
+.book:hover{
+    background-color: var(--nav-hover-background-color);
+    color: var(--nav-hover-link-color);
+}
+.join:hover{
+    background-color: var(--nav-hover-background-color);
+    color: var(--nav-hover-link-color);
+}
+.msg{
+    background-color: var(--paragraph-background-color);
+}
+footer{
+    background-color: var(--nav-background-color);
+    color: var(--paragraph-color-on-color);
+}
+.home-title{
+    color: var(--headline-color-on-color)
+}
+h4{
+    color: var(--headline-color-on-color);
+}
+.msg h2{
+    color: var(--headline-color-on-color);
+}
+.msg p{
+    color: var(--paragraph-color-on-color);
+}
+footer a{
+    color: var(--nav-link-color);
+    text-decoration: none;
+}
+footer a:hover{
+    color: var(--nav-hover-link-color);
+}
+.icon{
+    width: 80px;
+}
+footer p{
+    font-size: 1.2em;
+}
+footer p a:hover{
+    text-decoration: underline;
+}
